@@ -26,6 +26,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          context: ./meeral11/dockertest/
+          context: ./meeral11/dockertest
           file: ./Dockerfile
           tags: meeralpadia11/docktest:v1
